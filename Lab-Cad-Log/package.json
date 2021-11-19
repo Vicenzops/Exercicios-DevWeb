@@ -1,0 +1,15 @@
+{
+  "name": "lab-gpt",
+  "version": "1.0.0",
+  "description": "Lab sobre get, post e template",
+  "main": "servidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vicenzo Peres Sestari",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

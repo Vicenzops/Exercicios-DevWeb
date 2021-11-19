@@ -1,0 +1,17 @@
+body{
+    background-color: #6b705c;
+}
+.flexbox{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+
+h1, p, h2 {
+    color: white;
+}
