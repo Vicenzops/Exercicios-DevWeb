@@ -1,0 +1,37 @@
+body{
+    background-color: #6b705c;
+}
+.flexbox{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+
+.posts h1{
+    color: black;
+    font-size: 25pt;
+}
+.posts p{
+    color: black;
+    font-size: 15pt;
+}
+.posts{
+    margin-left: 50PX;
+    margin-right: 150PX;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: whitesmoke;
+    border: solid black 1px;
+    border-radius: 10px;
+    text-align: left;
+    text-indent: 15px;
+}
+.flexbox2{
+
+    text-overflow: unset;
+}
