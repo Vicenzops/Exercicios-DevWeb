@@ -1,0 +1,84 @@
+*{
+    
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image:  linear-gradient(to right, #2c9faa, #283667);
+
+}
+.flexbox{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+input{
+    float: right;
+    padding: auto;
+    align-items: flex-end;
+}
+input[type=text]:focus {
+    border: 1px solid #555;
+    }
+
+
+table{
+    background-image: linear-gradient(to left top, #566f96, #507ea2, #4d8daa, #509caf, #5baab1);
+    border: solid black 1px;
+    border-collapse: collapse;
+    margin: 5%;
+    width: 100%;
+    box-shadow: 10px 10px 5px ;
+    
+}
+tr, td, th{
+    border: solid black 1px;
+    padding: 1%;
+    color: white;
+}
+th{
+    font-size: 20px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+p, h1, label, a{
+    font-size: 20px;
+    color: white;
+    
+}
+h1{
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+label{
+    display: block;
+    
+	margin: 0px 15px 0px 0px;
+}
+label > input{
+    float: left;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: #DADDE2;
+}
+a:active{
+    color: #F6F6F6;
+}
+a:hover{
+    color: #FAF8FF;
+}
+ul{
+    list-style-type: circle;
+}
+
+
