@@ -1,0 +1,69 @@
+/* CSS */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', cursive;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.main {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    box-shadow: 10px 5px 15px black;
+}
+
+.game,
+form {
+    background-color: #fffccc;
+    padding: 1.8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game > div {
+    padding: 0.5rem;
+}
+
+.form input,
+.form label,
+.form button {
+    margin-top: 1rem;
+}
+
+.form input,
+.form button {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0.5rem;
+}
+
+.form button {
+    cursor: pointer;
+}
+
+.form button:hover {
+    filter: opacity(0.8);
+}
