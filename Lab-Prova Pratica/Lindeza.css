@@ -1,0 +1,107 @@
+body{
+    background-color: bisque;
+
+}
+p{
+    text-align: center;
+}
+.cabeçario{
+    border: solid black 3px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+}
+.cinzinha{
+    background-color: gray;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: auto;
+}
+
+h4{
+    color: indigo;
+    font-size: 16pt;
+    margin: 20px;
+}
+h1{
+    font-size: 50pt;
+    color: white;
+    text-align: center;
+}
+.txt0{
+    font-family: "Comic Sans MS";
+    font-size: 15pt;
+}
+.txt1{
+    font-family: SansSerif;
+    font-size: 20pt;
+    color:red
+}
+.txt2{
+    font-family: "Arial Black";
+    font-size: 25pt;
+    color:red;
+}
+
+table{
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    border: 5px dashed;
+    border-color: red;
+}
+td, th{
+    padding: 15px;
+}
+tr th{
+    color: red;
+    border-style: double;
+    marker-offset: auto;
+}
+td{
+    border-color: red;
+    border-style: double;
+}
+img{
+    margin: auto;
+}
+#list{
+    text-align: left;
+}
+.lista{
+    background-color: #8fed8f;
+    text-align: left;
+    width: 1050px;
+    padding: 15px;
+    margin-top: 15px;
+    padding-right: 30px;
+}
+li{
+    padding: 2px;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center ;
+    align-content: center;
+    align-items: center;
+    background-color:  lightgrey;
+    padding: 10px;
+
+
+}
+.flex-container2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
